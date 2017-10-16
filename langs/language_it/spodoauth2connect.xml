@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<prefix name="spodoauth2connect" label="SPOD OAuth2 Connect" language_tag="it" language_label="Italian">
+	<key name="access_settings_client_id_label">
+		<value>Client ID</value>
+	</key>
+	<key name="access_settings_client_secret_label">
+		<value>Client secret</value>
+	</key>
+	<key name="access_settings_grant_type_label">
+		<value>Grant type</value>
+	</key>
+	<key name="access_settings_scope_label">
+		<value>Scope</value>
+	</key>
+	<key name="access_settings_base_url_label">
+		<value>Authorization server base URL</value>
+	</key>
+	<key name="access_settings_endpoint_label">
+		<value>Authorize endpoint URL</value>
+	</key>
+	<key name="access_settings_tokenpoint_label">
+		<value>Request token endpoint URL</value>
+	</key>
+	<key name="access_settings_userinfopoint_label">
+		<value>User info endpoint URL</value>
+	</key>
+
+	<key name="admin_configuration_required_notification">
+		<value>&lt;a href="{$href}"&gt;SPOD OAuth2 Connect&lt;/a&gt; non è configurato</value>
+	</key>
+	<key name="app_register_title">
+		<value>Configura OAuth2 Connect</value>
+	</key>
+	<key name="app_return_url_desc">
+		<value>Redirect URI</value>
+	</key>
+	<key name="app_begin_url_desc">
+		<value>Initialize OAuth flow URI</value>
+	</key>
+	<key name="feed_user_join">
+		<value>si è iscritto!</value>
+	</key>
+	<key name="heading_configuration">
+		<value>SPOD OAuth2 Connect</value>
+	</key>
+	<key name="join_dublicate_email_msg">
+		<value>L'indirizzo e-mail è già in uso!</value>
+	</key>
+	<key name="join_failure_msg">
+		<value>La registrazione è fallita!</value>
+	</key>
+	<key name="join_incomplete">
+		<value>La registrazione non è stata completata</value>
+	</key>
+	<key name="join_incorrect_username">
+		<value>Nome utente non valida</value>
+	</key>
+	<key name="join_success_msg">
+		<value>la registrazione è terminata con successo!</value>
+	</key>
+	<key name="login_failure_msg">
+		<value>Login non riuscito</value>
+	</key>
+	<key name="login_success_msg">
+		<value>Login completato</value>
+	</key>
+	<key name="register_app_desc">
+		<value>Controlla il pannello di amministrazione del server di autenticazione per ottenere i parametri di configurazione di SPOD OAuth2 Connect. Non dimenticare di controllare che le seguenti impostazioni coincidano con la configurazione del client sul server stesso:</value>
+	</key>
+	<key name="register_app_success">
+		<value>Configurazione salvata</value>
+	</key>
+	<key name="register_success_msg">
+		<value>Congratulazioni, la tua &lt;b&gt;configurazione&lt;/b&gt; è pronta per essere usata!</value>
+	</key>
+	<key name="save_btn_label">
+		<value>Salva configurazione</value>
+	</key>
+	<key name="connect_btn_label">
+		<value>Accedi</value>
+	</key>
+</prefix>
