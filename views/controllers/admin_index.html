@@ -1,0 +1,72 @@
+{form name='SPODOAUTH2CONNECT_AccessForm'}
+
+    {block_decorator name='box' addClass='ow_stdmargin' type="empty"}
+        {text key="spodoauth2connect+register_app_desc"}
+        
+        <ul>
+            <li class="ow_desc">
+                {text key='spodoauth2connect+app_return_url_desc'}:
+                <strong>{$returnUrl}</strong>
+            </li>
+            <li class="ow_desc">
+                {text key='spodoauth2connect+app_begin_url_desc'}:
+                <strong>{$beginUrl}</strong>
+            </li>
+        </ul>
+     {/block_decorator}
+    
+    <table class="ow_table_1 ow_form">
+    <tr>
+        <th class="ow_name ow_txtleft" colspan="3">
+            <span class="ow_section_icon ow_ic_key">{text key='spodoauth2connect+app_register_title'}</span>
+
+        </th>
+    </tr>
+
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_client_id_label'}</td>
+        <td class="ow_value">{input name='client_id'} {error name='client_id'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_client_secret_label'}</td>
+        <td class="ow_value">{input name='client_secret'} {error name='client_secret'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_grant_type_label'}</td>
+        <td class="ow_value">{input name='grant_type'} {error name='grant_type'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_scope_label'}</td>
+        <td class="ow_value">{input name='scope'} {error name='scope'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_base_url_label'}</td>
+        <td class="ow_value">{input name='base_url'} {error name='base_url'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_endpoint_label'}</td>
+        <td class="ow_value">{input name='endpoint'} {error name='endpoint'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_tokenpoint_label'}</td>
+        <td class="ow_value">{input name='tokenpoint'} {error name='tokenpoint'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+    <tr class="{cycle name="install" values="ow_alt1,ow_alt2"}">
+        <td class="ow_label">{text key='spodoauth2connect+access_settings_userinfopoint_label'}</td>
+        <td class="ow_value">{input name='userinfopoint'} {error name='userinfopoint'}</td>
+        <td class="ow_desc"></td>
+    </tr>
+
+    <tr><td colspan="3" class="ow_submit">{submit name='save' class='ow_ic_save'}</td></tr>
+</table>
+{/form} 

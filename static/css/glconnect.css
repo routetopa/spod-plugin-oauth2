@@ -1,0 +1,28 @@
+.ow_ico_signin_g {
+    background-image: url(../img/ico_signin_g.png);
+}
+
+.spodoauth2connect_wrap {
+}
+
+.spodoauth2connect_button {
+background: #dc4a36 url(../img/google_signin.png) no-repeat 4px 1px;
+height: 21px;
+display: inline-block;
+cursor: pointer;
+border-bottom: 1px solid #8d2d1d;
+vertical-align: top;
+border-radius: 2px;
+}
+
+span.spodoauth2connect_button_text {
+padding: 0px 7px 0px 29px;
+color: #fff;
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+}
+
+span.spodoauth2connect_button_text:hover, span.spodoauth2connect_button_text a:hover {
+  text-decoration: none;
+}
